@@ -31,10 +31,11 @@ Partial Class Inicio
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IMPORTARToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1067, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -42,29 +43,30 @@ Partial Class Inicio
         '
         Me.IMPORTARToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PedidosToolStripMenuItem, Me.PartnersToolStripMenuItem})
         Me.IMPORTARToolStripMenuItem.Name = "IMPORTARToolStripMenuItem"
-        Me.IMPORTARToolStripMenuItem.Size = New System.Drawing.Size(78, 20)
+        Me.IMPORTARToolStripMenuItem.Size = New System.Drawing.Size(93, 24)
         Me.IMPORTARToolStripMenuItem.Text = "IMPORTAR"
         '
         'PedidosToolStripMenuItem
         '
         Me.PedidosToolStripMenuItem.Name = "PedidosToolStripMenuItem"
-        Me.PedidosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PedidosToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.PedidosToolStripMenuItem.Text = "Pedidos"
         '
         'PartnersToolStripMenuItem
         '
         Me.PartnersToolStripMenuItem.Name = "PartnersToolStripMenuItem"
-        Me.PartnersToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PartnersToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.PartnersToolStripMenuItem.Text = "Partners"
         '
         'Inicio
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Inicio"
         Me.Text = "HITO 3"
         Me.MenuStrip1.ResumeLayout(False)
